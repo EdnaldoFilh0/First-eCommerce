@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+/* cabeçalho */
+header {
+    background-color: rgb(255, 51, 0);
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 5px solid #f77904;
+}
+
+/* grid de produtos */
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+.products-container{
+    max-width: 1200px;
+    margin: 0;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+#img-1{
+    background-image: url('../img/cpu.png');
+}
+#img-2{
+    background-image: url('../img/fonte.png');
+}
+#img-3{
+    background-image: url('../img/gabin.png');
+}
+#img-4{
+    background-image: url('../img/kit.png');
+}
+#img-5{
+    background-image: url('../img/ram.png');
+}
+#img-6{
+    background-image: url('../img/ssd.png');
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #080808;
+    border-left: 5px solid #ff0000;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    width:100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ff5e00;
+    color:#fff;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #0f642f;
+    
+}
+/*footer*/
+footer {
+    background-color: rgb(48, 54, 53);
+    color: #fff;
+    border-top: 3px solid #f77904;
+    text-align: center;
+    padding: 80px;
+
+}
